@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-#include <conio.h>
 using namespace std;
 void ToUpperTriangular(vector<vector<double>> &matrix);
 
@@ -47,6 +46,5 @@ int main() {
 	for (int i = 0; i < matrix.size(); i++)
 		det *= matrix[i][i];
 	cout << "det: " << det;
-	_getch();
 	return 0;
 }
