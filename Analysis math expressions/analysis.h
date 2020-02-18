@@ -128,6 +128,6 @@ class Analysis {
 			result = LowestPriority(result);
 			if (token != "")
 				return 0.0;
-			return result;
+			return result; 
 		}
 };
